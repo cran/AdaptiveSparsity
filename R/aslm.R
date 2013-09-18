@@ -85,9 +85,9 @@ print.summary.aslm <- function(x, ...)
   }
 
 
-aslm.formula <- function(formula, data=list(), ...)
+aslm.formula <- function(formula, data=list(), na.action=na.omit, ...)
   {
-    mf <- model.frame(formula=formula, data=data)
+    mf <- model.frame(formula=formula, data=data, na.action = na.action)
     x <- model.matrix(attr(mf, "terms"), data=mf)
     y <- model.response(mf)
 

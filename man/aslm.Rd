@@ -11,7 +11,7 @@ implements the adaptive sparse linear model using Figueiredo's EM algorithm
 for adaptive sparsity (Jeffreys prior)
 }
 \usage{
-\method{aslm}{formula}(formula, data=list(), ...)
+\method{aslm}{formula}(formula, data=list(), na.action=na.omit, ...)
 \method{aslm}{default}(x, y, ...)
 getSparseModel(object)
 }
@@ -22,6 +22,9 @@ See \code{\link{lm}} Details for further information.
 }
   \item{data}{
 an optional data frame, list or environment containing the variables in the model.
+}
+  \item{na.action}{
+action to use when data contains NAs.  Options include na.omit, na.exclude, na.fail
 }
   \item{x}{
 design matrix
