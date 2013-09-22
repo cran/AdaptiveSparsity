@@ -2,6 +2,8 @@
 \alias{figEM}
 \alias{fit.ols.lm}
 \alias{init.ones}
+\alias{init.rnorm}
+\alias{init.runif}
 \title{
  aslm internal functions
 }
@@ -12,6 +14,8 @@ These are the fitting and initialization functions used by aslm.  These should g
 figEM(x, y, init = NULL, stopDiff = 1e-08, epsilon = 1e-06, a = 1)
 fit.ols.lm(x, y)
 init.ones(x, y)
+init.rnorm(x, y)
+init.runif(x, y)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -40,6 +44,10 @@ figEM computes the Figueiredo EM algorithm for adaptive sparsity using Jeffreys 
 fit.ols.lm computes an initial beta and sigma based on finding the lm.fit of the full design matrix.
 
 init.ones computes an initial beta that is all ones and computes the associated sigmas.
+
+init.rnorm computes an initial beta that is normally distributed with a mean of 0 and a standard deviation of 50
+
+init.runif computes an initial beta that is uniformly distributed from 0 to 1
 
 Currently, figEM uses fit.ols.lm to initialize beta and sigma if no init list is provided.
 }
