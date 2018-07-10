@@ -1,6 +1,6 @@
-4e69bec6c550b2d5283e14ccdc456299 *DESCRIPTION
-40592e569c9be379aac3eacb6a472ed4 *NAMESPACE
-bab37382d7400fc4d2eace2a2dd00f12 *R/asggm.R
+edc2c86eccda50dd1b2031758d647189 *DESCRIPTION
+689ab5c13c06d3d9407033e929d7230b *NAMESPACE
+ca6fc936ccc1cf3d193812b38ee4d0d4 *R/asggm.R
 745c093650157ceea7bef77589f73914 *R/aslm.R
 e5ddbf8bef1a92a13cc06022e64f5cf6 *man/asggm-internal.Rd
 c5c4b48a0275ca0795f12a8f883c37cc *man/asggm.Rd
@@ -9,6 +9,7 @@ c5c4b48a0275ca0795f12a8f883c37cc *man/asggm.Rd
 58fa56dbf66aa528c377b68d661a048b *man/aslm-package.Rd
 5578da5733eb9b2b917814937aab4979 *man/aslm.Rd
 4335718cd428a23fe407fc5de9573af1 *man/summary.aslm.Rd
-0851bfb36ffa282863f9d27634a9edad *src/CSL.cpp
+6d752bdfd2d80de3f1bd5bb2e14cd98f *src/CSL.cpp
 d3377d2c5f78ffc8d848a95d322a2b6a *src/CSL.h
 dd3629bb95538fd97f16558bb29fb069 *src/Makevars
+2d49fe208ae08c700d449c27a451abc3 *src/init.c

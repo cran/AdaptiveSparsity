@@ -64,8 +64,6 @@ rCSL = function(x, iterations = 500, init = NULL, epsilon = 1e-5, ansL = NULL){
 		# LInit = LInit[["OLS L"]]
 		# LInit = t(chol(solve(S)))
 
-		require(MASS)
-		require(Matrix)
 		Sinv = ginv(S)
 		LUSinv = expand(lu(Sinv))
 		LInit = as.matrix(LUSinv$L)
@@ -78,7 +76,7 @@ rCSL = function(x, iterations = 500, init = NULL, epsilon = 1e-5, ansL = NULL){
 	
 	print(norm(ansQ-LInit%*%t(LInit),'f'))
 
-	CSLOut = .Call("CSL", iterations, LInit, kNodes, nSamples, epsilon, S, ansQ, PACKAGE = "AdaptiveSparsity")
+	CSLOut = .Call(C_CSL, iterations, LInit, kNodes, nSamples, epsilon, S, ansQ, PACKAGE = "AdaptiveSparsity")
 	CSLOut
 	
 }

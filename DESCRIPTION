@@ -1,16 +1,16 @@
 Package: AdaptiveSparsity
 Type: Package
 Title: Adaptive Sparsity Models
-Version: 1.4
-Date: 2014-01-03
+Version: 1.5
+Date: 2018-07-09
 Author: Kristen Zygmunt, Eleanor Wong, Tom Fletcher
-Maintainer: Kristen Zygmunt <krismz@sci.utah.edu>
+Maintainer: Kris Campbell <kris@sci.utah.edu>
 Description: Implements Figueiredo EM algorithm for adaptive sparsity (Jeffreys prior) (see Figueiredo, M.A.T.; , "Adaptive sparseness for supervised learning," Pattern Analysis and Machine Intelligence, IEEE Transactions on , vol.25, no.9, pp. 1150- 1159, Sept. 2003) and Wong algorithm for adaptively sparse gaussian geometric models (see Wong, Eleanor, Suyash Awate, and P. Thomas Fletcher. "Adaptive Sparsity in Gaussian Graphical Models." In Proceedings of the 30th International Conference on Machine Learning (ICML-13), pp. 311-319. 2013.)
 License: LGPL (>= 3.0)
-Depends: R (>= 3.0.2), Rcpp (>= 0.8.0)
-Suggests: MASS, Matrix
-LinkingTo: Rcpp, RcppArmadillo (>= 0.2.0)
-Packaged: 2014-01-03 17:12:45 UTC; ripley
+Depends: R (>= 3.0.2)
+Imports: MASS, Matrix
+LinkingTo: Rcpp (>= 0.12.13), RcppArmadillo (>= 0.2.0)
 NeedsCompilation: yes
+Packaged: 2018-07-10 04:48:49 UTC; kris
 Repository: CRAN
-Date/Publication: 2014-01-03 18:14:16
+Date/Publication: 2018-07-10 07:40:07 UTC
