@@ -62,11 +62,10 @@ An object of class \dQuote{\code{asggm}} is a list containing at least the follo
 }
 %%\seealso{
 %%}
-%%\examples{
-%%##---- Should be DIRECTLY executable !! ----
-%%##-- ==>  Define data, use random,
-%%##--	or do  help(data=index)  for the standard data sets.
-%%}
+\examples{
+A = diag(3)
+asggm(A)
+}
 \keyword{ classes }
 \keyword{ models }
 \keyword{ multivariate }

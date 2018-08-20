@@ -1,9 +1,9 @@
-edc2c86eccda50dd1b2031758d647189 *DESCRIPTION
-689ab5c13c06d3d9407033e929d7230b *NAMESPACE
+50313e51736b509a53c491452a60031b *DESCRIPTION
+e46e3e820c619b097ac622aa6b0418c7 *NAMESPACE
 ca6fc936ccc1cf3d193812b38ee4d0d4 *R/asggm.R
 745c093650157ceea7bef77589f73914 *R/aslm.R
 e5ddbf8bef1a92a13cc06022e64f5cf6 *man/asggm-internal.Rd
-c5c4b48a0275ca0795f12a8f883c37cc *man/asggm.Rd
+48fd19fe0c505fcfff4ea775815984ac *man/asggm.Rd
 1a3921ae2f241ccb9c8875b4ffe87a40 *man/aslm-internal.Rd
 508ec73f92c6720b947d5f5b1d041610 *man/aslm-methods.Rd
 58fa56dbf66aa528c377b68d661a048b *man/aslm-package.Rd
